@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,8 +7,8 @@
     box-sizing: border-box;
 }
 header img{
-  width: 90px;
-  margin: -10px;
+  width: 125px;
+  margin: -25px;
 }
 
 .forma404 h1{
@@ -33,7 +34,12 @@ header img{
     margin: auto;
 
 }
-
+div h1{
+  font-family: 'Fredoka One', cursive;
+}
+div h2{
+  font-family: 'Fredoka One', cursive;
+}
 footer {
   column-count: 5;
   text-align: justify;
@@ -46,4 +52,5 @@ footer li a{
     list-style: none;
     color: #fff;
     text-decoration: none;
+    font-family: 'Fredoka One', cursive;
 }
