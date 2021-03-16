@@ -9,16 +9,19 @@
 
 body {
     font-family: 'Volkhov', serif; Arial; Helvetica; sans-serif;
+    width: 100%;
 }
-.trapecio {
+.Trapecio {
     width: 500px;
     border-right: 20px solid transparent;
     border-bottom: 40px solid #EEBF49;
     transform: rotate(90deg);
+    position: sticky;
+    top: 0;
 }
-.Trapecio a{
+.Tratex a{
     position: relative;left: 250px;
-    transform: rotate(60deg);
+    position: relative; top: 30px;
 }
 .etiquetaprincipal{
     width: 100%;
@@ -33,19 +36,6 @@ body {
     background-color: transparent;
     color: #000;
 }
-.menu li input{
-  width: 140%;
-  height: 30px;
-  background: #DEDBD7;
-  border: none;
-  font-size: 10pt;
-  color: #63717f;
-  padding-left: 10%;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  border-radius: 5%;
-}
-
 .tituloprincipal{
     margin-top: 30px;
     font-size: 70px;
@@ -58,10 +48,21 @@ body {
   }
 .menu{
   list-style: none;
-  background: #ECF0F1;
-  width: 70%;
+  background: #E8E8F2;
+  width: 100%;
   margin: 0% auto;
-  box-shadow: 5px 5px #EAECEE;
+  box-shadow: 3px 3px 3px 3px #F1F1F1;
+  text-align: center;
+}
+.menu li input{
+  width: 140px;
+  height: 35px;
+  background: #fff;
+  border: none;
+  font-size: 10pt;
+  color: #000;
+  padding-left: 5%;
+  border-radius: 5%;
 }
 .menu li{
   display: inline-block;
@@ -131,21 +132,55 @@ footer .columna3 img{
   width: 80%;
   float: right;
 }
-footer .imagen1 i{
+footer .icon1 i{
   font-size: 35px;
   position:absolute;
   bottom:23%;
   right:160px;
 }
-footer .imagen2 i{
+footer .icon2 i{
   font-size: 30px;
   position:absolute;
   bottom:23%;
   right:45px;
 }
-footer .imagen3 i{
+footer .icon3 i{
   font-size: 35px;
   position:absolute;
   bottom:23%;
   right:100px;
 }
+@media screen and (max-width: 800px){
+  .Trapecio{
+               position: absolute;
+               right: 75px;
+  }
+  .footerfinal{ position: absolute;
+                top: 130%;
+                right: 45px;
+  }
+  .copy {
+    position: absolute;
+    top:132%;
+    right: 45px;
+  }
+  .tituloprincipal{
+    margin-top: 20px;
+    font-size: 65px;
+  }
+  .titulosecundario{
+      margin-top: -15px;
+      font-size: 20px;
+      position: relative;left: 90px;
+    }
+    .menu{
+      width: 90%;
+      margin:0 auto;
+      text-align: center;}
+    .menu li a{
+      display:block;
+      padding: 25px;
+    }
+    .menu li input{
+      width: 250px;
+    }
