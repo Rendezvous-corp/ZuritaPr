@@ -85,7 +85,45 @@ background: #F8F9F9
   outline:none;
   background: #000;
 }
-
+div .Contenedor{
+  overflow: hidden;
+}
+aside{
+  width: 30%;
+  background: #fff;
+  padding: 15px;
+  color: #000;
+  float: right;
+  font: font-family: 'Volkhov', serif; Arial; Helvetica; sans-serif;
+  font-size: 16px;
+}
+aside .width{
+  margin-bottom: 20px;
+}
+aside h3{
+  color:#F1F1F1 ;
+  background: #282828;
+  border-bottom: 1px solid rgb(144, 141, 138, 1);
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: center;
+}
+aside ul{
+  list-style: none;
+}
+aside li{
+  border-bottom: 1px solid #908F8E;
+  padding: 15px 0px;
+  margin-bottom: 10px;
+  margin: 0px 0px 20px;
+}
+aside a{
+  color: #434343;
+  text-decoration: none;
+}
+aside a:hover{
+  color: #F1B376;
+}
 footer {
   width: 100%;
   background: #000;
@@ -184,3 +222,9 @@ footer .icon3 i{
     .menu li input{
       width: 250px;
     }
+@media screen and (max-width: 600px){
+  aside{
+    width: 100%;
+  }
+
+}
